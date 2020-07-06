@@ -1,0 +1,61 @@
+*{
+    font-family: Arial, sans-serif;
+    font-size: small;
+    }
+    header{
+        color: rgb(0, 10, 10);
+        background-color: blueviolet;
+        margin: 30px;
+        padding: 40px;
+        height: 20px;
+        
+    }
+    p:nth-child(5){
+        background: rgb(240, 70, 70);
+          }
+    
+          p:nth-child(even){
+            background: rgb(30, 187, 235);
+              }
+        
+    p:first-child i {
+        color: rgb(207, 139, 114);
+    }
+    section section{
+        color: darkgreen;
+        flex-direction: row;
+    }
+section section section{
+    color: darkmagenta;
+}
+#section {
+    color: darkturquoise;
+}
+section:hover {
+    color: deeppink;
+}
+.listas {display: flex;
+    height: 800;
+    flex-direction: column;
+    justify-content: first baseline;}
+
+    .desordenadas {font-family: simplicity;
+        color: #162238;}
+
+
+
+    footer{
+        padding-left: 20px;
+        width: 100%;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        display: grid;
+        background-color: rgb(207, 203, 203);   
+     
+    }
+    #f1{
+        margin-left: 2px;
+        grid-column-start: 1;
+        grid-column-end: 8;    
+    }
